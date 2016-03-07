@@ -1,5 +1,5 @@
 <?php
-namespace DXF;
+namespace k3rn3l3rr0r\DXF;
 
 class Output_Test extends \PHPUnit_Framework_TestCase {
 

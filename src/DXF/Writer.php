@@ -1,5 +1,5 @@
 <?php
-namespace DXF;
+namespace k3rn3l3rr0r\DXF;
 
 class Writer extends Collection {
 

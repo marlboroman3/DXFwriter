@@ -1,5 +1,5 @@
 <?php
-namespace DXF;
+namespace k3rn3l3rr0r\DXF;
 
 class ObjectTypes_Test extends \PHPUnit_Framework_TestCase {
 
@@ -9,7 +9,7 @@ class ObjectTypes_Test extends \PHPUnit_Framework_TestCase {
  */
 public function testWriterConstructs() {
 	$writer = new Writer();
-	$this->assertInstanceOf("\DXF\Writer", $writer);
+	$this->assertInstanceOf("k3rn3l3rr0r\DXF\Writer", $writer);
 }
 
 }#

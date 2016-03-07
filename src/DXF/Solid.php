@@ -1,5 +1,5 @@
 <?php
-namespace DXF;
+namespace k3rn3l3rr0r\DXF;
 
 /**
 * Colored solid fill based on three or four points

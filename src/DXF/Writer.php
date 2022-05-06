@@ -56,7 +56,7 @@ class Writer extends Collection {
 	* Tables like ltype,layer,style,...
 	*/
 	function table($name, $x = null){
-		$xstr = isset($x) ? implode($this->stringArray($x),"\n") : '';
+		$xstr = isset($x) ? implode("\n",$this->stringArray($x)) : '';
 		return sprintf("0\nTABLE\n2\n%s\n70\n%d\n%s\n0\nENDTAB\n", strtoupper($name), count($x), $xstr);
 	}
 
